@@ -62,45 +62,46 @@ html
           | Arrivals
     .mw8-l.center.w-100.cf.ph3.ph0-ns
 
-      .fl.h-100.w-50.w-50-m.w-third-ns.pa3.pa4-ns.reveal
+      .fl.h-100.w-50.w-50-m.w-third-ns.pa3.pa4-ns
         .aspect-ratio.aspect-ratio--1x2
           .aspect-ratio--object.pa4.justify-between.flex.flex-column.align-center(style='background-image:url("images/city-guide.jpg")').bg-center.cover
             .f2.f1-m.f-5-ns.tungsten.lh-tungsten.ttu.white
               | OFFICIAL CANON CITY GUIDE
             a(href='#').f7.b.link.white.dim.ttu.tracked.db.pt4
               | Explore guide
-      .fl.h-100.w-50.w-50-m.w-third-ns.pa3.pa4-ns.reveal
+      - for(var x = 1;x <= 4;x++) 
+        .fl.w-50.w-50-m.w-third-ns.pa3.pa4-ns
+          .aspect-ratio.aspect-ratio--1x1.component-border
+            .aspect-ratio--object.justify-between.flex.flex-column.align-center
+              .f6.f4-ns.b.pv3.pv4-ns
+                | Lenses for EOS 5D MARK IIIV
+              img(src='images/gx9.png').of-contain.self-start.w-50
+              a(href='#').f7.b.link.black.dim.dt.pr3.ttu.tracked.db.mv2.mv4-ns
+                | Explore
+      .fl.h-100.w-50.w-50-m.w-third-ns.pa3.pa4-ns
         .w-100.w-50-ns
           .aspect-ratio.aspect-ratio--1x1
             .aspect-ratio--object.bw1.b--black.b--solid.pa3.flex.flex-column.justify-between
-              .f2.f1-m.f-5-ns.tungsten.lh-tungsten.ttu
+              .f1.f1-m.f-5-ns.tungsten.lh-tungsten.ttu
                 | Free
               .f6.b
                 | Delivery & Shipping
         .w-100.w-50-ns.ml-a
           .aspect-ratio.aspect-ratio--1x1
             .aspect-ratio--object.bg-black.pa3.flex.flex-column.justify-between
-              .f2.f1-m.f-5-ns.tungsten.lh-tungsten.ttu.white
+              .f1.f1-m.f-5-ns.tungsten.lh-tungsten.ttu.white
                 | 02
               .f6.white.b
                 | Year guarantee
-      - for(var x = 1;x <= 4;x++) 
-        .fl.w-50.w-50-m.w-third-ns.pa3.pa4-ns.reveal
-          .aspect-ratio.aspect-ratio--1x1.component-border
-            .aspect-ratio--object.justify-between.flex.flex-column.align-center
-              .f6.f4-ns.b.pv4
-                | Lenses for EOS 5D MARK IIIV
-              img(src='images/gx9.png').of-contain.self-start.w-50
-              a(href='#').f7.b.link.black.dim.dt.pr3.ttu.tracked.db.mv4
-                | Explore
-      .fl.h-50.w-100.w-50-m.w-two-thirds-ns.pa3.pa4-ns.reveal
+      .fl.h-50.w-100.w-100-m.w-two-thirds-ns.pa3.pa4-ns
         .aspect-ratio.aspect-ratio--2x1
           .aspect-ratio--object.pa4.justify-between.flex.flex-column.align-center(style='background-image:url("images/springcash.jpg")').bg-center.cover
-            .f2.f1-m.f-5-ns.tungsten.lh-tungsten.ttu.white.w-50
-              | Spring Cashback
-            .f5.white.w-40
-              | Save up to £200 on your camera purchase
-            a(href='#').f7.b.link.white.dim.ttu.tracked.db.pt4
+            div
+              .f2.f1-m.f-5-ns.tungsten.lh-tungsten.ttu.white.w-100.w-100-m.w-30-l
+                | Spring Cashback
+              .f6.white.mv3.w-100.w-50-m.w-30-l
+                | Save up to £200 on your camera purchase
+            a(href='#').f7.b.link.white.dim.ttu.tracked.db
               | Explore offer
     script(src='scripts/jquery-3.2.1.min.js')
       

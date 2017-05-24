@@ -8,7 +8,9 @@ $heading-color: hotpink;
 .lh-tungsten {
   line-height: 0.8;
 }
-
+input::placeholder {
+  color: black;
+}
 .f7 {
   font-size: .75rem;
 }
