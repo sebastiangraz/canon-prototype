@@ -10,7 +10,7 @@ $heading-color: hotpink;
 }
 
 .f0 {
-  font-size: 8vw;
+  font-size: 9vw;
 }
 
 .f7 {
@@ -47,16 +47,12 @@ $heading-color: hotpink;
   opacity: 1;
 }
 
-.component-border {
-  box-shadow: 0px 2px 0px 0 #000 inset;
-}
-
 .aspect-ratio--1x2 {
-    padding-bottom: calc(200% + 4rem);
+    padding-bottom: 200%;
 }
 
 .aspect-ratio--2x1 {
-    padding-bottom: calc(50%);
+    padding-bottom: 50%;
 }
 
 * {box-sizing: border-box; font-family: gotham}

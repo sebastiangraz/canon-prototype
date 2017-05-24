@@ -1,0 +1,291 @@
+[
+  {
+    "type": "pug@2.0.0-rc.1::map::minify",
+    "inputSha": [
+      {
+        "file": "index.pug",
+        "sha": "a83bd731679bda4e7e27ee714beebc49d0457837"
+      }
+    ],
+    "outputSha": "b4c35c5bc480739549603e6a7eca2ee5123d3730",
+    "input": "index.pug",
+    "output": [
+      "index.html"
+    ]
+  },
+  {
+    "type": "pug@2.0.0-rc.1::map::minify",
+    "inputSha": [
+      {
+        "file": "includes/nav.pug",
+        "sha": "ea9b5b4b1a69c8e2b7789d5158ef88ae018238d8"
+      }
+    ],
+    "outputSha": "bfeb382186cecd3d31db22ef676207632ad2421c",
+    "input": "includes/nav.pug",
+    "output": [
+      "includes/nav.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "scripts/main.js",
+        "sha": "83084df8efead026e77e1ab6d53bdd05903e5713"
+      }
+    ],
+    "outputSha": "9a87a90072e7071642caa273ddcc7ca4de5734b2",
+    "input": "scripts/main.js",
+    "output": [
+      "scripts/main.js.map",
+      "scripts/main.js"
+    ]
+  },
+  {
+    "type": "node-sass@4.5.3::map::minify",
+    "inputSha": [
+      {
+        "file": "styles/main.scss",
+        "sha": "96edc408a0696693921cf8d15410f8e2a26904ef"
+      },
+      {
+        "file": "node_modules/tachyons-sass/scss/_normalize.scss",
+        "sha": "0e445f4709b936c4d9551aa493e37b54f447bd2d"
+      },
+      {
+        "file": "node_modules/tachyons-sass/scss/_links.scss",
+        "sha": "9acbc2605ed9008e83ff9c5730421b8af76073a6"
+      },
+      {
+        "file": "node_modules/tachyons-sass/scss/_max-widths.scss",
+        "sha": "b8e965a4e7b7fbc087a9d86b65f98a925bd8830e"
+      },
+      {
+        "file": "node_modules/tachyons-sass/scss/_vertical-align.scss",
+        "sha": "cc2134f7c6f0b5b322841c2861460c5e3f67ffc5"
+      },
+      {
+        "file": "node_modules/tachyons-sass/scss/_hovers.scss",
+        "sha": "d11c71fd8d733ac6dd2228c31de36e094a056147"
+      },
+      {
+        "file": "styles/override.scss",
+        "sha": "7aedf9d8ad941aa47f2b71a31e45e8dd0785f87a"
+      },
+      {
+        "file": "node_modules/tachyons-sass/scss/_box-sizing.scss",
+        "sha": "de6aedc9a30e72d408e0d7b0a665579b04734423"
+      },
+      {
+        "file": "node_modules/tachyons-sass/scss/_debug-children.scss",
+        "sha": "a94a2449e791f73b78d4ba4048bfe83bf7d5ea2b"
+      },
+      {
+        "file": "node_modules/tachyons-sass/scss/_debug-grid.scss",
+        "sha": "d75e02534a5cc6d00d627e8bcd965019cde21eaa"
+      },
+      {
+        "file": "node_modules/tachyons-sass/scss/_background-position.scss",
+        "sha": "3baa0f6f7f910237d0914529b1a4646c77207eae"
+      },
+      {
+        "file": "node_modules/tachyons-sass/scss/_aspect-ratios.scss",
+        "sha": "241c77ccc148d3e212ed150e4d9da7391554a64b"
+      },
+      {
+        "file": "node_modules/tachyons-sass/scss/_background-size.scss",
+        "sha": "7ce18ce8b065836db2644489f18febcebe78e2de"
+      },
+      {
+        "file": "node_modules/tachyons-sass/scss/_outlines.scss",
+        "sha": "cdbb65ac8c1721481823eef12aea2f201ca39e8a"
+      },
+      {
+        "file": "node_modules/tachyons-sass/scss/_borders.scss",
+        "sha": "61432bb2a600f6199239900d82244a48d3676f35"
+      },
+      {
+        "file": "node_modules/tachyons-sass/scss/_border-colors.scss",
+        "sha": "902b0ed4088103f6d95cd3f342fdb7bd59d03ce2"
+      },
+      {
+        "file": "node_modules/tachyons-sass/scss/_colors.scss",
+        "sha": "c9ba184098f1b5d5ba7738dfc28641d70c592fe3"
+      },
+      {
+        "file": "node_modules/tachyons-sass/scss/_border-radius.scss",
+        "sha": "c58ceb452d18065b24c2e2f6912e86027d4a1ab0"
+      },
+      {
+        "file": "node_modules/tachyons-sass/scss/_border-style.scss",
+        "sha": "e074ec688a73ee30d824f3e70955d8e65c905a69"
+      },
+      {
+        "file": "node_modules/tachyons-sass/scss/_border-widths.scss",
+        "sha": "6dd516c620309665e3a45f97dbdd95a339f43878"
+      },
+      {
+        "file": "node_modules/tachyons-sass/scss/_box-shadow.scss",
+        "sha": "23c2c08e1f237293c6de522bfec1334d9251c5a8"
+      },
+      {
+        "file": "node_modules/tachyons-sass/scss/_code.scss",
+        "sha": "247f86be2868c55c96ed06994d3d8dca6ae889ad"
+      },
+      {
+        "file": "node_modules/tachyons-sass/scss/_coordinates.scss",
+        "sha": "80490dbf1ad37efd83be027343ae711713a62dc1"
+      },
+      {
+        "file": "node_modules/tachyons-sass/scss/_clears.scss",
+        "sha": "cdebf6a817c3a0831d8b5200fd00160c5eee74e1"
+      },
+      {
+        "file": "node_modules/tachyons-sass/scss/_display.scss",
+        "sha": "d43c1009e13ffd047210eb14a8e06bc5d1e002c9"
+      },
+      {
+        "file": "node_modules/tachyons-sass/scss/_flexbox.scss",
+        "sha": "8af03cde16eb982ee576ce07fa167184f1245fc1"
+      },
+      {
+        "file": "node_modules/tachyons-sass/scss/_floats.scss",
+        "sha": "721a6df8f353e6e3857be58a12b0246408c7aefc"
+      },
+      {
+        "file": "node_modules/tachyons-sass/scss/_font-family.scss",
+        "sha": "ba6ef9d7c414df1f58ef15704ddb455181e66a43"
+      },
+      {
+        "file": "node_modules/tachyons-sass/scss/_font-style.scss",
+        "sha": "0cd1079bec39e0d381579312ee7340110f6b8676"
+      },
+      {
+        "file": "node_modules/tachyons-sass/scss/_font-weight.scss",
+        "sha": "90d1517bf334634cb7daa98fa329bb47ae6b8660"
+      },
+      {
+        "file": "node_modules/tachyons-sass/scss/_forms.scss",
+        "sha": "e077abe0b07a3a00749d9c9fac6d8049e758d4b6"
+      },
+      {
+        "file": "node_modules/tachyons-sass/scss/_heights.scss",
+        "sha": "919ec2e9ca38c95cc10414f07dfa456742a9ceea"
+      },
+      {
+        "file": "node_modules/tachyons-sass/scss/_letter-spacing.scss",
+        "sha": "446a197010a5f530c846114fb54e16182f46c485"
+      },
+      {
+        "file": "node_modules/tachyons-sass/scss/_line-height.scss",
+        "sha": "706f86d0efb099b92c39b3f47788a7a8ed16cb54"
+      },
+      {
+        "file": "node_modules/tachyons-sass/scss/_lists.scss",
+        "sha": "ece38ff3c94135a47aa462349095a8dd7e91e771"
+      },
+      {
+        "file": "node_modules/tachyons-sass/scss/_widths.scss",
+        "sha": "4586e4ef01e858b3eb9d4c926323b96c161b7625"
+      },
+      {
+        "file": "node_modules/tachyons-sass/scss/_overflow.scss",
+        "sha": "142a9fd1afebda61bd4d91220dbde58e15ebfcfa"
+      },
+      {
+        "file": "node_modules/tachyons-sass/scss/_position.scss",
+        "sha": "d4e3cc1970a2964e49f5af83a779677c3fe8b004"
+      },
+      {
+        "file": "node_modules/tachyons-sass/scss/_opacity.scss",
+        "sha": "9aeb6751271f6cf721216a0331af867c6b1114e4"
+      },
+      {
+        "file": "node_modules/tachyons-sass/scss/_rotations.scss",
+        "sha": "84ae810c7855718bf7fb839aafaf3068ba1930c3"
+      },
+      {
+        "file": "node_modules/tachyons-sass/scss/_skins.scss",
+        "sha": "2628c299d3717073516149c50bc309ebcbf747d7"
+      },
+      {
+        "file": "node_modules/tachyons-sass/scss/_skins-pseudo.scss",
+        "sha": "5f05f1695f36f2ca816533d2d0747923f2e58b0e"
+      },
+      {
+        "file": "node_modules/tachyons-sass/scss/_spacing.scss",
+        "sha": "9841dad0aab584448434957dbdd4a3ff7f879d93"
+      },
+      {
+        "file": "node_modules/tachyons-sass/scss/_negative-margins.scss",
+        "sha": "ff3c406a22602595f97e760776bf49c9f8730183"
+      },
+      {
+        "file": "node_modules/tachyons-sass/scss/_typography.scss",
+        "sha": "2b8602364b3890e29a7029241dee3095477f6988"
+      },
+      {
+        "file": "node_modules/tachyons-sass/scss/_nested.scss",
+        "sha": "2b38fa742d5fc79f2040ae3418843fb0302cc388"
+      },
+      {
+        "file": "node_modules/tachyons-sass/scss/_tables.scss",
+        "sha": "0899a3a5481b6b07d66cf5f212d258234a853e3d"
+      },
+      {
+        "file": "node_modules/tachyons-sass/scss/_text-decoration.scss",
+        "sha": "c6857f1e0dc70d88924c2d59a6408c2dc2e72cdc"
+      },
+      {
+        "file": "node_modules/tachyons-sass/scss/_text-align.scss",
+        "sha": "58fce318fd125b41a30169dc405b463e8df70198"
+      },
+      {
+        "file": "node_modules/tachyons-sass/scss/_text-transform.scss",
+        "sha": "13f3b6b78fb3a3e052e09d3e5899189625cfab09"
+      },
+      {
+        "file": "node_modules/tachyons-sass/scss/_type-scale.scss",
+        "sha": "a426c138a0ed52d4d8d33234c9effd7829001d3e"
+      },
+      {
+        "file": "node_modules/tachyons-sass/scss/_utilities.scss",
+        "sha": "40bb5bd45603640af563ddb0b8e1c4f0e0831b99"
+      },
+      {
+        "file": "node_modules/tachyons-sass/scss/_visibility.scss",
+        "sha": "5117f28e731d65dbea84dc7ff0504f6598efc7cf"
+      },
+      {
+        "file": "node_modules/tachyons-sass/scss/_white-space.scss",
+        "sha": "fe7e6415b80665bf8141f8648c675f37cfe99071"
+      },
+      {
+        "file": "node_modules/tachyons-sass/scss/_z-index.scss",
+        "sha": "181937e283f8a52c3825ef8b411589f766df48c0"
+      }
+    ],
+    "outputSha": "44cde377bd0b10dece683f31587d38d2960bcb01",
+    "input": "styles/main.scss",
+    "output": [
+      "styles/main.css.map",
+      "styles/main.css"
+    ]
+  },
+  {
+    "type": "node-sass@4.5.3::map::minify",
+    "inputSha": [
+      {
+        "file": "styles/override.scss",
+        "sha": "7aedf9d8ad941aa47f2b71a31e45e8dd0785f87a"
+      }
+    ],
+    "outputSha": "87bd90f1afa7e9deec87bddf7a956f01defbaf3f",
+    "input": "styles/override.scss",
+    "output": [
+      "styles/override.css.map",
+      "styles/override.css"
+    ]
+  }
+]
