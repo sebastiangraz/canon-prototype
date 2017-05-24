@@ -11,7 +11,7 @@ html
     
     include includes/nav.pug
   
-    .mw8.ph4.center.w-100.items-center-ns.flex.mt6.flex-column.flex-row-ns
+    .mw8.ph4.center.w-100.items-center-ns.flex.mt3.mt5-ns.flex-column.flex-row-ns
       .w-100.w-30-ns.fl.pr0.pr4-ns.z-2.mb3.relative
         p.f7.lh-solid.ttu.tracked.ma0.b.reveal
           | Canon Guides
@@ -24,7 +24,7 @@ html
       .w-100.w-70-ns.fl.z-1
         .relative
           img(src='images/canon-hero2.jpg').db.z-1.relative.reveal
-          .bg-pale-blue.nl6-ns.nl4.ma6.w-100.h-100.absolute.top-0.left-0.reveal
+          .bg-pale-blue.nl6-ns.nl4.ma6.w-100.h-100.absolute.top-0.left-0.reveal.absolute-ns
             .dib.pl4.pa3-ns.absolute.right-1.bottom-1.flex.items-center
               .pr3
                 p.f7.ma0.ttu.b.tracked
@@ -61,6 +61,13 @@ html
           br  
           | Arrivals
     .mw8-l.center.w-100.cf.ph3.ph0-ns
+      .fl.h-100.w-50.w-50-m.w-third-ns.pa3.pa4-ns.reveal
+        .aspect-ratio.aspect-ratio--1x2
+          .aspect-ratio--object.pa4.justify-between.flex.flex-column.align-center(style='background-image:url("images/city-guide.jpg")').bg-center.cover
+            .f-5.tungsten.lh-tungsten.ttu.white
+              | OFFICIAL CANON CITY GUIDE
+            a(href='#').f7.b.link.white.dim.ttu.tracked.db.pt4
+              | Explore
       - for(var x = 1;x <= 5;x++) 
         .fl.w-50.w-50-m.w-third-ns.pa3.pa4-ns.reveal
           .aspect-ratio.aspect-ratio--1x1.bt.bw1
@@ -68,9 +75,15 @@ html
               .f6.f4-ns.b.pv4
                 | Lenses for EOS 5D MARK IIIV
               img(src='images/gx9.png').of-contain.self-start.w-50
-              a(href='#').f7.b.link.black.ttu.tracked.db.pv4
+              a(href='#').f7.b.link.black.dim.ttu.tracked.db.pv4
                 | Explore
-          
+      .fl.h-50.w-100.w-50-m.w-two-thirds-ns.pa3.pa4-ns.reveal
+        .aspect-ratio.aspect-ratio--2x1
+          .aspect-ratio--object.pa4.justify-between.flex.flex-column.align-center(style='background-image:url("images/springcash.jpg")').bg-center.cover
+            .f-5.tungsten.lh-tungsten.ttu.white.w-50
+              | Spring Cashback
+            a(href='#').f7.b.link.white.dim.ttu.tracked.db.pt4
+              | Explore  
     script(src='scripts/jquery-3.2.1.min.js')
       
     script(src='scripts/main.js')
