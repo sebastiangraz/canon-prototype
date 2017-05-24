@@ -4,14 +4,15 @@ $heading-color: hotpink;
   font-family: tungsten;
   -webkit-font-smoothing: antialiased;
 }
+
+.lh-tungsten {
+  line-height: 0.8;
+}
 .f0 {
   font-size: 9vw;
 }
 .f7 {
   font-size: .75rem;
-}
-.lh-tungsten {
-  line-height: 0.8;
 }
 @media screen and (min-width: 30em) {
   .f0-ns {
@@ -37,4 +38,4 @@ $heading-color: hotpink;
   transform: translate(0);
   opacity: 1;
 }
-* {box-sizing: border-box;}
+* {box-sizing: border-box; font-family: gotham}

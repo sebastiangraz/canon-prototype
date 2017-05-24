@@ -8,14 +8,9 @@ html
 
     link(rel='stylesheet', href='styles/main.css')
   body
-    nav.pa3.pa4-ns
-      a.link.dim.black.b.f1.tc.db.mb3.mb4-ns(href='#', title='Home') Canon
-      .tc.pb3
-        a.link.dim.gray.f6.f5-ns.dib.mr3(href='#', title='Home') Home
-        a.link.dim.gray.f6.f5-ns.dib.mr3(href='#', title='About') About
-        a.link.dim.gray.f6.f5-ns.dib.mr3(href='#', title='Store') Store
-        a.link.dim.gray.f6.f5-ns.dib(href='#', title='Contact') Contact
-
+    
+    include includes/nav.pug
+  
     .mw8.ph4.center.w-100.items-center-ns.flex.mt6.flex-column.flex-row-ns
       .w-100.w-30-ns.fl.pr0.pr4-ns.z-2.mb3.relative
         p.f7.lh-solid.ttu.tracked.ma0.b.reveal
@@ -30,7 +25,7 @@ html
         .relative
           img(src='images/canon-hero2.jpg').db.z-1.relative.reveal
           .bg-pale-blue.nl6-ns.nl4.ma6.w-100.h-100.absolute.top-0.left-0.reveal
-            .dib.pa3-ns.absolute.right-1.bottom-1.flex.items-center
+            .dib.pl4.pa3-ns.absolute.right-1.bottom-1.flex.items-center
               .pr3
                 p.f7.ma0.ttu.b.tracked
                   | Taken with EF 85mm Lens
@@ -40,7 +35,7 @@ html
                   | 1/100
                 .fl.pt2
                   | ISO
-              .br-100.fl.bg-white.w3.h3.overflow-hidden.pa3
+              .br-100.fl.bg-white.w3.h3.overflow-hidden.pa3.flex-none
                 img(src='images/lens.png').of-contain.h-100.w-100
                 
                 
@@ -50,9 +45,9 @@ html
       div.w-100.w-40-l
         input(placeholder='Search Products').input-reset.bw1.b--black.pa3.db.w-100
         .mt3
-          .f7.b.tracked.ttu.dib
+          .f7.b.tracked.ttu.dib.pr3
             | popular
-          ul.pl3.ma0.f7.b.dib
+          ul.pa0.f7.b.dib
             li.pr2.dib.link
               | EOS 700D  
             li.pr2.dib.link
@@ -61,7 +56,7 @@ html
               | Canon EF
       div.w-100.w-50-l
         h1.f1.f0-ns.tungsten.ttu.lh-tungsten.mt0-ns.mb4.pre.overflow-visible.reveal.tr
-          span.red 
+          span.red.tungsten
             | New
           br  
           | Arrivals
