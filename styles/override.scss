@@ -9,20 +9,15 @@ $heading-color: hotpink;
   line-height: 0.8;
 }
 
-.f0 {
-  font-size: 8vw;
-}
-
 .f7 {
   font-size: .75rem;
 }
-
-@media screen and (min-width: 30em) {
-  .f0-ns {
-    font-size: 7.5vw;
-  }
+.mr-a {
+  margin-right: auto
 }
-
+.ml-a {
+  margin-left: auto
+}
 .of-contain {
   object-fit: contain;
 }
