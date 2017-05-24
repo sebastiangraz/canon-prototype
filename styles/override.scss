@@ -1,0 +1,40 @@
+$heading-color: hotpink;
+
+.tungsten {
+  font-family: tungsten;
+  -webkit-font-smoothing: antialiased;
+}
+.f0 {
+  font-size: 9vw;
+}
+.f7 {
+  font-size: .75rem;
+}
+.lh-tungsten {
+  line-height: 0.8;
+}
+@media screen and (min-width: 30em) {
+  .f0-ns {
+    font-size: 7.5vw;
+  }
+}
+.of-contain {
+  object-fit: contain;
+}
+.of-cover {
+  object-fit: cover;
+}
+.reveal {
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: 1s cubic-bezier(.06,.73,.36,1) all;
+  transition-delay: 0.1s;
+}
+.bg-pale-blue {
+  background-color: #E3EAF2;
+}
+.reveal_visible {
+  transform: translate(0);
+  opacity: 1;
+}
+* {box-sizing: border-box;}
