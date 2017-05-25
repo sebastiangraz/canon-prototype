@@ -87,7 +87,11 @@ input:focus {
 .aspect-ratio--2x1 {
     padding-bottom: calc(50% - 2rem);
 }
-
+@media screen and (min-width: 30em) {
+  .aspect-ratio--1x2-ns {
+      padding-bottom: calc(200% + 4rem);
+  }
+}
 @media screen and (min-width: 30em) {
   .aspect-ratio--2x1-ns {
       padding-bottom: calc(50% - 2rem);

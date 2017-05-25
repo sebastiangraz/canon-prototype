@@ -34,6 +34,15 @@ function reveal() {
   if ($('.reveal_pending').length >= 1) rafId = requestAnimationFrame(reveal);
 }
 
+$(document).keyup(function(e) {
+  if (e.keyCode === 27 /*esc*/ )  {
+    $('#search-products').val('').blur()
+    $('#search-results').html('<span class="red tungsten">New</span><br>Arrivals')
+    $('#search-filter').addClass('hidden');
+    $('#search-exit').addClass('hidden');
+  }
+});
+
 $('#search-exit').on('click', function(){
   $('#search-products').val('')
   $('#search-results').html('<span class="red tungsten">New</span><br>Arrivals')
