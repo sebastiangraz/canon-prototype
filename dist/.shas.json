@@ -4,10 +4,10 @@
     "inputSha": [
       {
         "file": "index.pug",
-        "sha": "a83bd731679bda4e7e27ee714beebc49d0457837"
+        "sha": "5ad2ac6dddbc2f44b8c939bf026553fbe66c4632"
       }
     ],
-    "outputSha": "b4c35c5bc480739549603e6a7eca2ee5123d3730",
+    "outputSha": "ed6f1654b7ec5f21531d95b6f829a9d13b096d97",
     "input": "index.pug",
     "output": [
       "index.html"
@@ -18,10 +18,10 @@
     "inputSha": [
       {
         "file": "includes/nav.pug",
-        "sha": "ea9b5b4b1a69c8e2b7789d5158ef88ae018238d8"
+        "sha": "5308fc249584184b853bc56eb27a401a52edfa24"
       }
     ],
-    "outputSha": "bfeb382186cecd3d31db22ef676207632ad2421c",
+    "outputSha": "d33ed2c09f2b223df7f60121bd77951da891a317",
     "input": "includes/nav.pug",
     "output": [
       "includes/nav.html"
@@ -71,7 +71,7 @@
       },
       {
         "file": "styles/override.scss",
-        "sha": "7aedf9d8ad941aa47f2b71a31e45e8dd0785f87a"
+        "sha": "da507373464fb88d3ecbdd22881bf7f75a5ed687"
       },
       {
         "file": "node_modules/tachyons-sass/scss/_box-sizing.scss",
@@ -222,6 +222,10 @@
         "sha": "ff3c406a22602595f97e760776bf49c9f8730183"
       },
       {
+        "file": "node_modules/tachyons-sass/scss/_utilities.scss",
+        "sha": "40bb5bd45603640af563ddb0b8e1c4f0e0831b99"
+      },
+      {
         "file": "node_modules/tachyons-sass/scss/_typography.scss",
         "sha": "2b8602364b3890e29a7029241dee3095477f6988"
       },
@@ -250,10 +254,6 @@
         "sha": "a426c138a0ed52d4d8d33234c9effd7829001d3e"
       },
       {
-        "file": "node_modules/tachyons-sass/scss/_utilities.scss",
-        "sha": "40bb5bd45603640af563ddb0b8e1c4f0e0831b99"
-      },
-      {
         "file": "node_modules/tachyons-sass/scss/_visibility.scss",
         "sha": "5117f28e731d65dbea84dc7ff0504f6598efc7cf"
       },
@@ -266,7 +266,7 @@
         "sha": "181937e283f8a52c3825ef8b411589f766df48c0"
       }
     ],
-    "outputSha": "44cde377bd0b10dece683f31587d38d2960bcb01",
+    "outputSha": "c346562cd6b6807ce7615cf2a62e71ac00bc3246",
     "input": "styles/main.scss",
     "output": [
       "styles/main.css.map",
@@ -278,10 +278,10 @@
     "inputSha": [
       {
         "file": "styles/override.scss",
-        "sha": "7aedf9d8ad941aa47f2b71a31e45e8dd0785f87a"
+        "sha": "da507373464fb88d3ecbdd22881bf7f75a5ed687"
       }
     ],
-    "outputSha": "87bd90f1afa7e9deec87bddf7a956f01defbaf3f",
+    "outputSha": "92386c33258650d2838b4e1034ba23c1cf6a7543",
     "input": "styles/override.scss",
     "output": [
       "styles/override.css.map",

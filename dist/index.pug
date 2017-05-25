@@ -13,25 +13,25 @@ html
   
     .mw8.ph4.center.w-100.items-center-ns.flex.mt3.mt5-ns.flex-column.flex-row-ns
       .w-100.w-30-ns.fl.pr0.pr4-ns.z-2.mb3.relative
-        p.f7.lh-solid.ttu.tracked.ma0.b.reveal
+        p.f7.lh-solid.ttu.tracked.ma0.fw5.reveal
           | Canon Guides
-        h1.f1.f0-ns.tungsten.ttu.lh-tungsten.mt3.mb4.overflow-visible.reveal.word-wrap
+        .f2.f1-m.f-5-ns.tungsten.ttu.lh-tungsten.mt3.mb4.overflow-visible.reveal.word-wrap
           | Iceland — The
           | Photographer’s paradise
         .reveal  
           a(href='#').w-100.w-auto-ns.f3.link.dim.ph3.pv3.dib.white.bg-black.tungsten.ttu
-            | Explore Mirrorless
+            | Explore Iceland
       .w-100.w-70-ns.fl.z-1
         .relative
           img(src='images/canon-hero2.jpg').db.z-1.relative.reveal
           .bg-pale-blue.nl6-ns.nl4.ma6.w-100.h-100.absolute.top-0.left-0.reveal.absolute-ns
             .dib.pl4.pa3-ns.absolute.right-1.bottom-1.flex.items-center
               .pr3
-                p.f7.ma0.ttu.b.tracked
+                p.f7.ma0.ttu.fw5.tracked
                   | Taken with EF 85mm Lens
-                .fl.pr2.pt2
+                .fl.pr3.pt2
                   | f/11
-                .fl.pr2.pt2
+                .fl.pr3.pt2
                   | 1/100
                 .fl.pt2
                   | ISO
@@ -43,11 +43,11 @@ html
                 
     .mw8.ph4.center.w-100.mt7.mb2.justify-between.flex.flex-column.justify-between.flex-row-l
       div.w-100.w-40-l
-        input(placeholder='Search Products', style='background-image: url("images/search.svg"); background-position: calc(100% - 12px) center').input-reset.bw1.b--black.pa3.db.w-100.bg-right
+        input.b(placeholder='Search Products', style='background-image: url("images/search.svg"); background-position: calc(100% - 12px) center').input-reset.bw1.b--black.pa3.db.w-100.bg-right
         .mt1
-          .f7.b.tracked.ttu.dib.pr3
+          .f7.fw5.tracked.ttu.dib.pr3
             | popular
-          ul.pa0.f7.b.dib
+          ul.pa0.f7.fw5.dib
             li.pr2.dib.link
               | EOS 700D  
             li.pr2.dib.link
@@ -55,35 +55,75 @@ html
             li.pr2.dib.link
               | Canon EF
       div.w-100.w-50-l
-        h1.f1.f0-ns.tungsten.ttu.lh-tungsten.mt0-ns.mb4.pre.overflow-visible.reveal.tr
+        .f2.f1-m.f-5-ns.tungsten.ttu.lh-tungsten.mt0-ns.mb4.pre.overflow-visible.reveal.tr
           span.red.tungsten
             | New
           br  
           | Arrivals
     .mw8-l.center.w-100.cf.ph3.ph0-ns
-      .fl.h-100.w-50.w-50-m.w-third-ns.pa3.pa4-ns.reveal
-        .aspect-ratio.aspect-ratio--1x2
-          .aspect-ratio--object.pa4.justify-between.flex.flex-column.align-center(style='background-image:url("images/city-guide.jpg")').bg-center.cover
-            .f-5.tungsten.lh-tungsten.ttu.white
-              | OFFICIAL CANON CITY GUIDE
-            a(href='#').f7.b.link.white.dim.ttu.tracked.db.pt4
+      
+      .fl.w-50.w-50-m.w-third-ns.pa3.pa4-ns
+        .aspect-ratio.aspect-ratio--1x1.component-border
+          .aspect-ratio--object.justify-between.flex.flex-column.align-center
+            .f6.f4-ns.fw5.pv3.pv4-ns
+              | Lenses for EOS 5D MARK IIIV
+            img(src='images/eos-5d-profile.png').of-contain.self-start.w-50
+            a(href='#').f7.fw5.link.black.dim.dt.pr3.ttu.tracked.db.mv2.mv4-ns
               | Explore
-      - for(var x = 1;x <= 5;x++) 
-        .fl.w-50.w-50-m.w-third-ns.pa3.pa4-ns.reveal
-          .aspect-ratio.aspect-ratio--1x1.bt.bw1
-            .aspect-ratio--object.justify-between.flex.flex-column.align-center
-              .f6.f4-ns.b.pv4
-                | Lenses for EOS 5D MARK IIIV
-              img(src='images/gx9.png').of-contain.self-start.w-50
-              a(href='#').f7.b.link.black.dim.ttu.tracked.db.pv4
-                | Explore
-      .fl.h-50.w-100.w-50-m.w-two-thirds-ns.pa3.pa4-ns.reveal
-        .aspect-ratio.aspect-ratio--2x1
-          .aspect-ratio--object.pa4.justify-between.flex.flex-column.align-center(style='background-image:url("images/springcash.jpg")').bg-center.cover
-            .f-5.tungsten.lh-tungsten.ttu.white.w-50
-              | Spring Cashback
-            a(href='#').f7.b.link.white.dim.ttu.tracked.db.pt4
-              | Explore  
+      .fl.w-50.w-50-m.w-third-ns.pa3.pa4-ns
+        .aspect-ratio.aspect-ratio--1x1.component-border
+          .aspect-ratio--object.justify-between.flex.flex-column.align-center
+            .f6.f4-ns.fw5.pv3.pv4-ns
+              | Lenses for EOS 5D MARK IIIV
+            img(src='images/eos-5d.png').of-contain.self-start.w-50
+            a(href='#').f7.fw5.link.black.dim.dt.pr3.ttu.tracked.db.mv2.mv4-ns
+              | Explore
+      .fl.w-50.w-50-m.w-third-ns.pa3.pa4-ns
+        .aspect-ratio.aspect-ratio--1x1.component-border
+          .aspect-ratio--object.justify-between.flex.flex-column.align-center
+            .f6.f4-ns.fw5.pv3.pv4-ns
+              | Lenses for EOS 5D MARK IIIV
+            img(src='images/gx9.png').of-contain.self-start.w-50
+            a(href='#').f7.fw5.link.black.dim.dt.pr3.ttu.tracked.db.mv2.mv4-ns
+              | Explore
+      .fl.h-100.w-50.w-50-m.w-third-ns.pa3.pa4-ns
+        .aspect-ratio.aspect-ratio--1x2
+          .aspect-ratio--object.pa3.pa4-ns.justify-between.flex.flex-column.align-center(style='background-image:url("images/city-guide.jpg")').bg-center.cover
+            .f2.f1-m.f-5-ns.tungsten.lh-tungsten.ttu.white
+              | OFFICIAL CANON CITY GUIDE
+            a(href='#').f7.fw5.link.white.dim.ttu.tracked.db.pt4
+              | Explore guide
+      .fl.w-50.w-100-m.w-two-thirds-ns.pa3.pa4-ns
+        .aspect-ratio.aspect-ratio--1x1.aspect-ratio--2x1-ns.component-border
+          .aspect-ratio--object.justify-between.flex.flex-column.align-center
+            .f6.f4-ns.fw5.pv3.pv4-ns
+              | Lenses for EOS 5D MARK IIIV
+            img(src='images/lens-ef.png').of-contain.self-end-ns.w-50.w-third-ns
+            a(href='#').f7.fw5.link.black.dim.dt.pr3.ttu.tracked.db.mv2.mv4-ns
+              | Explore
+      .fl.w-50.w-50-m.w-third-ns.pa3.pa4-ns
+        .aspect-ratio.aspect-ratio--1x1.component-border
+          .aspect-ratio--object.justify-between.flex.flex-column.align-center
+            .f6.f4-ns.fw5.pv3.pv4-ns
+              | Lenses for EOS 5D MARK IIIV
+            img(src='images/eos-5d-profile.png').of-contain.self-start.w-50
+            a(href='#').f7.fw5.link.black.dim.dt.pr3.ttu.tracked.db.mv2.mv4-ns
+              | Explore
+      .fl.h-100.w-50.w-50-m.w-third-ns.pa3.pa4-ns
+        .w-100.w-50-ns
+          .aspect-ratio.aspect-ratio--1x1
+            .aspect-ratio--object.bw1.b--black.b--solid.pa3.flex.flex-column.justify-between
+              .f1.f1-m.f-5-ns.tungsten.lh-tungsten.ttu
+                | Free
+              .f6.fw5
+                | Delivery & Shipping
+        .w-100.w-50-ns.ml-a
+          .aspect-ratio.aspect-ratio--1x1
+            .aspect-ratio--object.bg-black.pa3.flex.flex-column.justify-between
+              .f1.f1-m.f-5-ns.tungsten.lh-tungsten.ttu.white
+                | 02
+              .f6.white.fw5
+                | Year guarantee
     script(src='scripts/jquery-3.2.1.min.js')
       
     script(src='scripts/main.js')

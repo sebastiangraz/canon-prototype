@@ -34,5 +34,14 @@ function reveal() {
   if ($('.reveal_pending').length >= 1) rafId = requestAnimationFrame(reveal);
 }
 
+
+$("#search-products").on("keyup", function(){
+    if (($(this).val()) == 0) {
+      $('#search-results').html('<span class="red tungsten">New</span><br> Arrivals')
+    } else {
+      $('#search-results').html('Search results for' + '<br><span class="red tungsten">' + $(this).val() + '</span>')
+    }
+})
+
 $(scroll);
 $(window).scroll(scroll);

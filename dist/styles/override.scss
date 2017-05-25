@@ -1,5 +1,11 @@
 $heading-color: hotpink;
 
+
+@font-face {
+    font-family: tungsten;
+    src: url('/fonts/Tungsten-Semibold.woff');
+}
+
 .tungsten {
   font-family: tungsten;
   -webkit-font-smoothing: antialiased;
@@ -8,21 +14,18 @@ $heading-color: hotpink;
 .lh-tungsten {
   line-height: 0.8;
 }
-
-.f0 {
-  font-size: 9vw;
+input::placeholder {
+  color: black;
 }
-
 .f7 {
   font-size: .75rem;
 }
-
-@media screen and (min-width: 30em) {
-  .f0-ns {
-    font-size: 7.5vw;
-  }
+.mr-a {
+  margin-right: auto
 }
-
+.ml-a {
+  margin-left: auto
+}
 .of-contain {
   object-fit: contain;
 }
@@ -47,12 +50,20 @@ $heading-color: hotpink;
   opacity: 1;
 }
 
+.component-border {
+  box-shadow: 0px 2px 0px 0 #000 inset;
+}
+
 .aspect-ratio--1x2 {
-    padding-bottom: 200%;
+    padding-bottom: calc(200% + 4rem);
 }
 
 .aspect-ratio--2x1 {
-    padding-bottom: 50%;
+    padding-bottom: calc(50% - 2rem);
 }
-
-* {box-sizing: border-box; font-family: gotham}
+@media screen and (min-width: 30em) {
+  .aspect-ratio--2x1-ns {
+      padding-bottom: calc(50% - 2rem);
+  }
+}
+* {box-sizing: border-box; font-family: gotham, sans-serif;}
