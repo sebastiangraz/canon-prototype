@@ -17,6 +17,21 @@ $heading-color: hotpink;
 input::placeholder {
   color: black;
 }
+input:focus {
+    outline:none;
+    border-color: red;
+    border-style: solid;
+}
+#search-exit {
+  opacity: 1;
+  transition: .15s ease-in all;
+  transform: scale(1);
+  &.hidden {
+    transform: scale(0);
+    opacity: 0;
+  }
+}
+
 .f7 {
   font-size: .75rem;
 }
