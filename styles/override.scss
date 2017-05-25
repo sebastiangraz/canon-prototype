@@ -53,7 +53,11 @@ input::placeholder {
 }
 
 .aspect-ratio--2x1 {
-    padding-bottom: calc(50%);
+    padding-bottom: calc(50% - 2rem);
 }
-
+@media screen and (min-width: 30em) {
+  .aspect-ratio--2x1-ns {
+      padding-bottom: calc(50% - 2rem);
+  }
+}
 * {box-sizing: border-box; font-family: gotham}
