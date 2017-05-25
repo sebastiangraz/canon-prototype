@@ -34,12 +34,17 @@ function reveal() {
   if ($('.reveal_pending').length >= 1) rafId = requestAnimationFrame(reveal);
 }
 
-
-$("#search-products").on("keyup", function(){
+$('#search-exit').on('click', function(){
+  $('#search-products').val('')
+  $('#search-results').html('<span class="red tungsten">New</span><br>Arrivals')
+})
+$('#search-products').on('keyup', function(){
     if (($(this).val()) == 0) {
+      $('#search-exit').addClass('dn')
       $('#search-filter').addClass('hidden');
       $('#search-results').html('<span class="red tungsten">New</span><br>Arrivals')
     } else {
+      $('#search-exit').removeClass('dn')
       $('#search-filter').removeClass('hidden');
       $('#search-results').html('Search results for' + '<br><span class="wb-break-all fl fr-ns red tungsten">' + $(this).val() + '</span>')
     }
