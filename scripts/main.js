@@ -41,7 +41,7 @@ $("#search-products").on("keyup", function(){
       $('#search-results').html('<span class="red tungsten">New</span><br>Arrivals')
     } else {
       $('#search-filter').removeClass('hidden');
-      $('#search-results').html('Search results for' + '<br><span class="w6 fl fr-ns mw6 truncate red tungsten">' + $(this).val() + '</span>')
+      $('#search-results').html('Search results for' + '<br><span class="wb-break-all fl fr-ns red tungsten">' + $(this).val() + '</span>')
     }
 })
 
