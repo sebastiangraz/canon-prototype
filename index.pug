@@ -13,7 +13,7 @@ html
   
     .mw8.ph4.center.w-100.items-center-ns.flex.mt3.mt5-ns.flex-column.flex-row-ns
       .w-100.w-30-ns.fl.pr0.pr4-ns.z-2.mb3.relative
-        p.f7.lh-solid.ttu.tracked.ma0.fw5.reveal
+        p.f6.lh-solid.ttu.tracked.ma0.fw5.reveal
           | Canon Guides
         .f2.f1-m.f-5-ns.tungsten.ttu.lh-tungsten.mt3.mb4.overflow-visible.reveal.word-wrap
           | Iceland — The
@@ -55,20 +55,40 @@ html
             li.pr2.dib.link
               | Canon EF
       div.w-100.w-50-l
-        .f2.f1-m.f-5-ns.tungsten.ttu.lh-tungsten.mt0-ns.mb4.pre.overflow-visible.reveal.tr#search-results
+        .f2.f1-m.f-5-ns.tungsten.ttu.dib.fl.fr-ns.lh-tungsten.mt0-ns.mv4.pre.overflow-visible.reveal.tl.tr-ns#search-results
           span.red.tungsten
             | New
           br  
           | Arrivals
     .mw8-l.center.w-100.cf.ph3.ph0-ns
-      
-      .fl.w-50.w-50-m.w-third-ns.pa3.pa4-ns
+      #search-filter.hidden.z-2.relative
+        .fl.w-50.w-50-m.w-third-ns.pa3.pa4-ns.absolute.bg-white
+          .aspect-ratio.aspect-ratio--1x1
+            .aspect-ratio--object.justify-between.flex.flex-column.align-center
+              .f6.f4-ns.fw5
+                .f6.mb4
+                  | Filter results
+                
+                ul.list.ma0.pa0
+                  li.link.dim.pb3.silver New
+                    sup.ml1 3
+                  li.link.dim.pb3 Cameras
+                    sup.ml1 23
+                  li.link.dim.pb3.silver Camcorders
+                    sup.ml1 1
+                  li.link.dim.pb3.silver Printers
+                    sup.ml1 3
+                  li.link.dim.pb3.silver All
+                    sup.ml1 30
+
+              
+      .fl.w-50.w-50-m.w-third-ns.pa3.pa4-ns.z-1.relative
         .aspect-ratio.aspect-ratio--1x1.component-border
           .aspect-ratio--object.justify-between.flex.flex-column.align-center
             .f6.f4-ns.fw5.pv3.pv4-ns
               | Lenses for EOS 5D MARK IIIV
             img(src='images/eos-5d-profile.png').of-contain.self-start.w-50
-            a(href='#').f7.fw5.link.black.dim.dt.pr3.ttu.tracked.db.mv2.mv4-ns
+            a(href='#').f6.fw5.link.black.dim.dt.pr3.db.mv2.mv4-ns
               | Explore
       .fl.w-50.w-50-m.w-third-ns.pa3.pa4-ns
         .aspect-ratio.aspect-ratio--1x1.component-border
@@ -76,7 +96,7 @@ html
             .f6.f4-ns.fw5.pv3.pv4-ns
               | Lenses for EOS 5D MARK IIIV
             img(src='images/eos-5d.png').of-contain.self-start.w-50
-            a(href='#').f7.fw5.link.black.dim.dt.pr3.ttu.tracked.db.mv2.mv4-ns
+            a(href='#').f6.fw5.link.black.dim.dt.pr3.db.mv2.mv4-ns
               | Explore
       .fl.w-50.w-50-m.w-third-ns.pa3.pa4-ns
         .aspect-ratio.aspect-ratio--1x1.component-border
@@ -84,14 +104,14 @@ html
             .f6.f4-ns.fw5.pv3.pv4-ns
               | Lenses for EOS 5D MARK IIIV
             img(src='images/gx9.png').of-contain.self-start.w-50
-            a(href='#').f7.fw5.link.black.dim.dt.pr3.ttu.tracked.db.mv2.mv4-ns
+            a(href='#').f6.fw5.link.black.dim.dt.pr3.db.mv2.mv4-ns
               | Explore
       .fl.h-100.w-50.w-50-m.w-third-ns.pa3.pa4-ns
         .aspect-ratio.aspect-ratio--1x2
           .aspect-ratio--object.pa3.pa4-ns.justify-between.flex.flex-column.align-center(style='background-image:url("images/city-guide.jpg")').bg-center.cover
             .f2.f1-m.f-5-ns.tungsten.lh-tungsten.ttu.white
               | OFFICIAL CANON CITY GUIDE
-            a(href='#').f7.fw5.link.white.dim.ttu.tracked.db.pt4
+            a(href='#').f6.fw5.link.white.dim.ttu.tracked.db.pt4
               | Explore guide
       .fl.w-50.w-100-m.w-two-thirds-ns.pa3.pa4-ns
         .aspect-ratio.aspect-ratio--1x1.aspect-ratio--2x1-ns.component-border
@@ -99,7 +119,7 @@ html
             .f6.f4-ns.fw5.pv3.pv4-ns
               | Lenses for EOS 5D MARK IIIV
             img(src='images/lens-ef.png').of-contain.self-end-ns.w-50.w-third-ns
-            a(href='#').f7.fw5.link.black.dim.dt.pr3.ttu.tracked.db.mv2.mv4-ns
+            a(href='#').f6.fw5.link.black.dim.dt.pr3.db.mv2.mv4-ns
               | Explore
       .fl.w-50.w-50-m.w-third-ns.pa3.pa4-ns
         .aspect-ratio.aspect-ratio--1x1.component-border
@@ -107,7 +127,7 @@ html
             .f6.f4-ns.fw5.pv3.pv4-ns
               | Lenses for EOS 5D MARK IIIV
             img(src='images/eos-5d-profile.png').of-contain.self-start.w-50
-            a(href='#').f7.fw5.link.black.dim.dt.pr3.ttu.tracked.db.mv2.mv4-ns
+            a(href='#').f6.fw5.link.black.dim.dt.pr3.db.mv2.mv4-ns
               | Explore
       .fl.h-100.w-50.w-50-m.w-third-ns.pa3.pa4-ns
         .w-100.w-50-ns

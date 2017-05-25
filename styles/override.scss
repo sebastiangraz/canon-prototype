@@ -53,7 +53,15 @@ input::placeholder {
 .component-border {
   box-shadow: 0px 2px 0px 0 #000 inset;
 }
-
+#search-filter {
+  transition: 0.4s all cubic-bezier(.06,.73,.36,1);
+  transform: translateX(0);
+  opacity: 1;
+  &.hidden {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+}
 .aspect-ratio--1x2 {
     padding-bottom: calc(200% + 4rem);
 }

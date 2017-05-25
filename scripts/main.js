@@ -37,9 +37,11 @@ function reveal() {
 
 $("#search-products").on("keyup", function(){
     if (($(this).val()) == 0) {
-      $('#search-results').html('<span class="red tungsten">New</span><br> Arrivals')
+      $('#search-filter').addClass('hidden');
+      $('#search-results').html('<span class="red tungsten">New</span><br>Arrivals')
     } else {
-      $('#search-results').html('Search results for' + '<br><span class="red tungsten">' + $(this).val() + '</span>')
+      $('#search-filter').removeClass('hidden');
+      $('#search-results').html('Search results for' + '<br><span class="w6 fl fr-ns mw6 truncate red tungsten">' + $(this).val() + '</span>')
     }
 })
 
