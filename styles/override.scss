@@ -1,5 +1,11 @@
 $heading-color: hotpink;
 
+
+@font-face {
+    font-family: tungsten;
+    src: url('/fonts/Tungsten-Semibold.woff');
+}
+
 .tungsten {
   font-family: tungsten;
   -webkit-font-smoothing: antialiased;
