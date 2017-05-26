@@ -17,6 +17,21 @@ $heading-color: hotpink;
 input::placeholder {
   color: black;
 }
+input:focus {
+    outline:none;
+    border-color: red;
+    border-style: solid;
+}
+#search-exit {
+  opacity: 1;
+  transition: .15s ease-in all;
+  transform: scale(1);
+  &.hidden {
+    transform: scale(0);
+    opacity: 0;
+  }
+}
+
 .f7 {
   font-size: .75rem;
 }
@@ -40,7 +55,9 @@ input::placeholder {
   transition: 1s cubic-bezier(.06,.73,.36,1) all;
   transition-delay: 0.1s;
 }
-
+.wb-break-all {
+  word-break: break-all;
+}
 .bg-pale-blue {
   background-color: #E3EAF2;
 }
@@ -53,6 +70,15 @@ input::placeholder {
 .component-border {
   box-shadow: 0px 2px 0px 0 #000 inset;
 }
+#search-filter {
+  transition: 0.4s all cubic-bezier(.06,.73,.36,1);
+  transform: translateX(0);
+  opacity: 1;
+  &.hidden {
+    transform: translateX(-32px);
+    opacity: 0;
+  }
+}
 
 .aspect-ratio--1x2 {
     padding-bottom: calc(200% + 4rem);
@@ -60,6 +86,11 @@ input::placeholder {
 
 .aspect-ratio--2x1 {
     padding-bottom: calc(50% - 2rem);
+}
+@media screen and (min-width: 30em) {
+  .aspect-ratio--1x2-ns {
+      padding-bottom: calc(200% + 4rem);
+  }
 }
 @media screen and (min-width: 30em) {
   .aspect-ratio--2x1-ns {
