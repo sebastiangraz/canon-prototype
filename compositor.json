@@ -64,7 +64,10 @@
           "repo": "canon-prototype"
         }
       ],
-      "text": "v1.0.0"
+      "text": "v1.0.0",
+      "slug": "What",
+      "image": "dwd.jpg",
+      "backgroundImage": ""
     },
     {
       "component": "footer",
